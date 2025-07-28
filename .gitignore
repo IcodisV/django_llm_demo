@@ -1,0 +1,49 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Django stuff:
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# PyCharm
+.idea/
+
+# Certificates
+*.pem
+*.crt
+*.key
+*.pfx
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py

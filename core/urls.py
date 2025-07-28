@@ -1,0 +1,2 @@
+# core/urls.py
+urlpatterns = []
